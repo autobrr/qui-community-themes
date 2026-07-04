@@ -30,4 +30,4 @@ Format requirements (CI checks these):
 
 ## License
 
-[MIT](./LICENSE). If your theme is a port of an existing theme (Nord, Dracula, Catppuccin, …), credit the original and its license in the file's header comment, e.g. `@description: Port of Nord (nordtheme.com, MIT)`.
+[MIT](./LICENSE). If your theme is a port of an existing theme, credit the original and its license in the file's header comment, e.g. `@description: Port of Dracula (draculatheme.com, MIT)`.
