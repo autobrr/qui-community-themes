@@ -30,4 +30,4 @@ Format requirements (CI checks these):
 
 ## License
 
-[GPL-2.0-or-later](./LICENSE), same as qui. By contributing a theme you agree to license it under these terms.
+[MIT](./LICENSE). If your theme is a port of an existing theme (Nord, Dracula, Catppuccin, …), credit the original and its license in the file's header comment, e.g. `@description: Port of Nord (nordtheme.com, MIT)`.
