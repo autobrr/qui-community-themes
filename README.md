@@ -3,8 +3,7 @@
 A collection of themes for [qui](https://github.com/autobrr/qui), made by the community.
 
 > [!NOTE]
-> Sideloading custom themes is a qui premium feature — it requires the same
-> premium-access license that unlocks the built-in premium themes.
+> Sideloading custom themes is a qui premium feature. It needs the same premium-access license as the built-in premium themes.
 
 ## Using a theme
 
@@ -12,9 +11,9 @@ A collection of themes for [qui](https://github.com/autobrr/qui), made by the co
    - **Docker:** `/config/themes`
    - **Linux:** `~/.config/qui/themes`
    - **Windows:** `%APPDATA%\qui\themes`
-2. Open **Settings → Themes** in qui and hit **Refresh** — the theme appears in the **Custom Themes** section.
+2. Open **Settings → Themes** in qui and click **Refresh**. The theme appears in the **Custom Themes** section.
 
-See the [custom themes documentation](https://getqui.com/docs/features/custom-themes) for the full details, including how to change the themes directory.
+See the [custom themes documentation](https://getqui.com/docs/features/custom-themes) for details, including how to change the themes directory.
 
 ## Contributing a theme
 
@@ -22,11 +21,11 @@ See the [custom themes documentation](https://getqui.com/docs/features/custom-th
 2. Set `@name` and `@description` in the header comment and adjust the values. The [authoring guide](https://getqui.com/docs/features/custom-themes) lists every available token.
 3. Open a pull request with light and dark mode screenshots.
 
-Format requirements (CI checks these):
+Format requirements:
 
 - One self-contained `.css` file per theme, directly in `themes/`, at most 1 MiB.
-- Must contain a `:root { }` block (light mode) **and** a `.dark { }` block (dark mode), each with at least one `--variable`. Omitted tokens fall back to qui's defaults.
-- No `@theme inline { }` block — qui maps tokens internally. Variations (multi-swatch themes) are not supported for custom themes.
+- Must contain a `:root { }` block (light mode) and a `.dark { }` block (dark mode), each with at least one `--variable`. Omitted tokens fall back to qui's defaults.
+- No `@theme inline { }` block. qui maps the tokens itself. Custom themes do not support variations (multi-swatch themes).
 
 ## License
 
