@@ -15,7 +15,7 @@ A collection of themes for [qui](https://github.com/autobrr/qui), made by the co
 
 See the [custom themes documentation](https://getqui.com/docs/features/custom-themes) for details, including how to change the themes directory.
 
-On Omarchy? [qui-omarchy](https://github.com/s0up4200/qui-omarchy) switches qui to the matching theme whenever your desktop theme changes.
+On Omarchy? [omarchy-qui](https://github.com/s0up4200/omarchy-qui) switches qui to the matching theme whenever your desktop theme changes.
 
 ## Contributing a theme
 
