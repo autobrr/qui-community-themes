@@ -2,6 +2,8 @@
 # Validates theme files against what qui actually enforces:
 # .css extension, <= 1 MiB, a :root block and a .dark block each with
 # at least one --variable (mirrors web/src/utils/themeParser.ts in qui).
+# Also requires screenshots/<theme>_light.png and _dark.png for every theme,
+# and a README gallery row that references them.
 set -u
 
 max_size=1048576
@@ -37,6 +39,13 @@ for f in "${files[@]}"; do
   ok=1
   check_block "$f" ":root" || { echo "FAIL $f: missing :root block with at least one --variable"; ok=0; }
   check_block "$f" ".dark" || { echo "FAIL $f: missing .dark block with at least one --variable"; ok=0; }
+  name=$(basename "$f" .css)
+  if [ "$name" != "_template" ]; then
+    for mode in light dark; do
+      [ -f "screenshots/${name}_${mode}.png" ] || { echo "FAIL $f: missing screenshots/${name}_${mode}.png"; ok=0; }
+      grep -q "screenshots/${name}_${mode}.png" README.md || { echo "FAIL $f: screenshots/${name}_${mode}.png not in the README gallery"; ok=0; }
+    done
+  fi
   [ "$ok" -eq 1 ] || { fail=1; continue; }
 
   grep -q "@name:" "$f" || echo "WARN $f: no @name header, qui will show it as \"Untitled Theme\""
