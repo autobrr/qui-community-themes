@@ -12,6 +12,7 @@ Screenshots show qui's dashboard with incognito mode on.
 | Theme | Light | Dark |
 | --- | --- | --- |
 | [Catppuccin Latte](themes/catppuccin_latte.css) | <img src="screenshots/catppuccin_latte_light.png" width="400" alt="Catppuccin Latte light"> | <img src="screenshots/catppuccin_latte_dark.png" width="400" alt="Catppuccin Latte dark"> |
+| [CS Office](themes/cs_office.css) | <img src="screenshots/cs_office_light.png" width="400" alt="CS Office light"> | <img src="screenshots/cs_office_dark.png" width="400" alt="CS Office dark"> |
 | [Darcula](themes/darcula.css) | <img src="screenshots/darcula_light.png" width="400" alt="Darcula light"> | <img src="screenshots/darcula_dark.png" width="400" alt="Darcula dark"> |
 | [Dracula](themes/dracula.css) | <img src="screenshots/dracula_light.png" width="400" alt="Dracula light"> | <img src="screenshots/dracula_dark.png" width="400" alt="Dracula dark"> |
 | [Ethereal](themes/ethereal.css) | <img src="screenshots/ethereal_light.png" width="400" alt="Ethereal light"> | <img src="screenshots/ethereal_dark.png" width="400" alt="Ethereal dark"> |
