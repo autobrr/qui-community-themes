@@ -21,6 +21,7 @@ Screenshots show qui's dashboard with incognito mode on.
 | [Gruvbox](themes/gruvbox.css) | <img src="screenshots/gruvbox_light.png" width="400" alt="Gruvbox light"> | <img src="screenshots/gruvbox_dark.png" width="400" alt="Gruvbox dark"> |
 | [Hackerman](themes/hackerman.css) | <img src="screenshots/hackerman_light.png" width="400" alt="Hackerman light"> | <img src="screenshots/hackerman_dark.png" width="400" alt="Hackerman dark"> |
 | [Kanagawa](themes/kanagawa.css) | <img src="screenshots/kanagawa_light.png" width="400" alt="Kanagawa light"> | <img src="screenshots/kanagawa_dark.png" width="400" alt="Kanagawa dark"> |
+| [Kanagawa Lotus](themes/kanagawa_lotus.css) | <img src="screenshots/kanagawa_lotus_light.png" width="400" alt="Kanagawa Lotus light"> | <img src="screenshots/kanagawa_lotus_dark.png" width="400" alt="Kanagawa Lotus dark"> |
 | [Last Horizon](themes/last_horizon.css) | <img src="screenshots/last_horizon_light.png" width="400" alt="Last Horizon light"> | <img src="screenshots/last_horizon_dark.png" width="400" alt="Last Horizon dark"> |
 | [Lumon](themes/lumon.css) | <img src="screenshots/lumon_light.png" width="400" alt="Lumon light"> | <img src="screenshots/lumon_dark.png" width="400" alt="Lumon dark"> |
 | [Lupine](themes/lupine.css) | <img src="screenshots/lupine_light.png" width="400" alt="Lupine light"> | <img src="screenshots/lupine_dark.png" width="400" alt="Lupine dark"> |
