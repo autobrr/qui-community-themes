@@ -10,4 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      # validate.sh compares the theme ids with the ids on main.
+      - run: git fetch --depth=1 origin +refs/heads/main:refs/remotes/origin/main
+      - run: ./scripts/validate_test.sh
       - run: ./scripts/validate.sh
