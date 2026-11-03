@@ -1,9 +1,9 @@
 /* @name: CS Office
- * @description: Office cell grid and fonts in the palette of qui's premium Spreadsheet theme, without the spreadsheet labels
+ * @description: Office cell grid and fonts in the palette of the Spreadsheet theme, without the spreadsheet labels
  * @lightOnly: false
  */
 
-/* Colors and fonts follow qui's premium "Spreadsheet" theme by autobrr. The id
+/* Colors and fonts follow the "Spreadsheet" theme by autobrr (spreadsheet.css). The id
  * is different on purpose: qui's label renaming (Overview, Lookup, Workbooks,
  * the Book1.xlsx tab title, the green favicon) only switches on for the exact
  * ids "spreadsheet" and "spreadsheet-classic", so this theme never gets it.

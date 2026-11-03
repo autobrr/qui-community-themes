@@ -1,5 +1,6 @@
 /* @name: Kanagawa Lotus
  * @description: Port of Kanagawa Lotus by rebelot (github.com/rebelot/kanagawa.nvim, MIT) via the Omarchy Kanagawa Lotus theme by bjarneo, with the Kanagawa Dragon palette as the dark companion
+ * The text and accent colors match the Lotus palette of kanagawa.nvim. The light background, card, secondary, border and muted text colors come from github.com/bjarneo/omarchy-kanagawa-lotus-theme, which names no license.
  */
 
 :root {
