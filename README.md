@@ -24,6 +24,7 @@ Screenshots show qui's dashboard with incognito mode on.
 | [Flexoki Light](themes/flexoki_light.css) | <img src="screenshots/flexoki_light_light.png" width="400" alt="Flexoki Light light"> | <img src="screenshots/flexoki_light_dark.png" width="400" alt="Flexoki Light dark"> |
 | [Gruvbox](themes/gruvbox.css) | <img src="screenshots/gruvbox_light.png" width="400" alt="Gruvbox light"> | <img src="screenshots/gruvbox_dark.png" width="400" alt="Gruvbox dark"> |
 | [Hackerman](themes/hackerman.css) | <img src="screenshots/hackerman_light.png" width="400" alt="Hackerman light"> | <img src="screenshots/hackerman_dark.png" width="400" alt="Hackerman dark"> |
+| [Jade Horse](themes/jade_horse.css) | <img src="screenshots/jade_horse_light.png" width="400" alt="Jade Horse light"> | <img src="screenshots/jade_horse_dark.png" width="400" alt="Jade Horse dark"> |
 | [Kanagawa](themes/kanagawa.css) | <img src="screenshots/kanagawa_light.png" width="400" alt="Kanagawa light"> | <img src="screenshots/kanagawa_dark.png" width="400" alt="Kanagawa dark"> |
 | [Kanagawa Lotus](themes/kanagawa_lotus.css) | <img src="screenshots/kanagawa_lotus_light.png" width="400" alt="Kanagawa Lotus light"> | <img src="screenshots/kanagawa_lotus_dark.png" width="400" alt="Kanagawa Lotus dark"> |
 | [Kitsune](themes/kitsune.css) | <img src="screenshots/kitsune_light.png" width="400" alt="Kitsune light"> | <img src="screenshots/kitsune_dark.png" width="400" alt="Kitsune dark"> |
